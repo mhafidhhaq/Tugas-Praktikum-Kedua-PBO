@@ -1,10 +1,10 @@
-package mahasiswa;
+package lingkaran;
 
 public class Test {
-    public static void main(String args[]){
-        Mahasiswa mhs = new Mahasiswa(12345, "Budi mikarti");
+    public static void main(String[] args){
+        Lingkaran l = new Lingkaran();
         
-        System.out.println("NRP: " + mhs.getNRP());
-        System.out.println("Nama: " + mhs.getNama());
+        l.isiJari(10.0);
+        l.getHasil();
     }
 }
